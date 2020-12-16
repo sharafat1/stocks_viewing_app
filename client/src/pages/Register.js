@@ -8,7 +8,7 @@ import {  CardBody } from "reactstrap";
 
 
 //API login url
-const API_URL = "http://131.181.190.87:3000";
+const API_URL = "https://localhost:443";
 const url = `${API_URL}/user/register`;
 
 

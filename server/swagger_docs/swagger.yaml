@@ -13,7 +13,7 @@ components:
       bearerFormat: JWT
 
 servers:
-  - url: https://172.22.27.179:443
+  - url: https://localhost:443
 paths:
   /stocks/symbols:
     get:

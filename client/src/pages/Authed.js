@@ -103,7 +103,7 @@ export default function AuthenticatedRequest() {
   //parameters for the api request
   const params = { headers: headers, symbol: symbol,  from: Date.parse(from),  to: Date.parse(to)};
   
-  let url = `http://131.181.190.87:3000/stocks/auth/${params}`; //This is authentication
+  let url = `https://localhost:443/stocks/auth/${params}`; //This is authentication
 
   //This fetches the information from the api
   useEffect(() => {

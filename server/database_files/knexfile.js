@@ -6,7 +6,7 @@ module.exports = {
     host: "localhost",
     database: "webcomputing", //the name of the database should be webcomputing
     user: "root",
-    password: "CAB230!" //put your password here
+    password: "sharafat" //put your password here
   }
 }
 

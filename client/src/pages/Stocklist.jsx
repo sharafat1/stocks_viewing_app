@@ -21,7 +21,7 @@ const token = localStorage.getItem("token");
 
 
 //This is the link to api
-const API_KEY = "http://131.181.190.87:3000";
+const API_KEY = "https://localhost:443";
 const url = `${API_KEY}/stocks/symbols`;
 //This array holds the names of the table's columns 
 const columns = [

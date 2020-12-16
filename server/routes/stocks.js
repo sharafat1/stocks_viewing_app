@@ -1,4 +1,5 @@
 /* This is the modules, packages, and libraries that are needed for this route*/
+const { json } = require("express");
 var express = require("express")
 const jwt = require('jsonwebtoken');
 var router = express.Router()
@@ -97,7 +98,9 @@ router.get("/:symbol", function (req, res, next) {
         });
       }
       else { //If there is no errors then display the results
-        res.status(200).json(rows);
+        // console.log(" this is the rows data debug: " + rows.timestamp);
+        // res.send(json(rows));
+        res.status(200).json(rows[0]);
       }
     })
     .catch((err) => { //If there is 500 error display this message

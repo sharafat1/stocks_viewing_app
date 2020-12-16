@@ -7,7 +7,7 @@ import "ag-grid-community/dist/styles/ag-theme-alpine.css";
 import moment from "moment";
 
 //the qut api
-const API_KEY = "http://131.181.190.87:3000";
+const API_KEY = "https://localhost:443";
 //the name of the columns for the retrieved table
 const columnsDefs = [
   {
