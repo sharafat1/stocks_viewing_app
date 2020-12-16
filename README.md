@@ -6,7 +6,11 @@ Inside this repository there are two folders one contains the front-end and the 
 
 
 # Database Setting Up
-To locally run this applicaiton, you will need to set up a local sql server using the sql workbench and then upload the sqlDump file located inside the stocks_viewing_app directory and run the database to create the database in your local workbench. Moreover, in knexfile.js which is located inside /server/database_files directory you will need to update the informaiton for the password, host, etc.
+To locally run this applicaiton, you will need to set up a local sql server using the sql workbench, to setup sql workbench follow this guide: 
+
+    https://dev.mysql.com/doc/workbench/en/wb-getting-started-tutorial-create-connection.html
+
+Then upload the sqlDump file located inside the stocks_viewing_app directory and run the database to create the database in your local workbench. Moreover, in knexfile.js which is located inside /server/database_files directory you will need to update the informaiton for the password, host, etc.
 
 # Compiling the server and client
 To compile both server and client, please check out the instructions in client and server directories.
